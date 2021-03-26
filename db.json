@@ -1,0 +1,34 @@
+{
+    "categories": [
+        {
+            "id":1,
+            "name": "Điện thoại",
+            "createdAt": 616515616161,
+            "updatedAt": 161634551121
+        }
+        
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Iphone X",
+            "createdAt": 456465465466,
+            "updatedAt": 161635455412,
+            "categoryId": 1,
+            "salePrice": 584551555
+        },
+        {
+            "id": 2,
+            "name": "Iphone 12 Pro Max",
+            "createdAt": 455665166466,
+            "updatedAt": 165484555412,
+            "categoryId": 1,
+            "salePrice": 52322351555
+        }
+    ],
+
+    "profile": {
+        "name": "sam"
+    }
+}
