@@ -1,1 +1,35 @@
-GET http://localhost:3000/categories
+@baseUrl = http://localhost:3000/api
+
+
+#categories
+# @name getAllcategories
+GET {{baseUrl}}/categories
+
+####
+
+# @name addNewCategories
+POST {{baseUrl}}/categories
+Content-Type: application/json
+
+{
+    "name": "Laptop"
+}
+
+
+####
+
+# @name UpdateCategory
+PATCH  http://localhost:3000/api/categories/2
+Content-Type: application/json
+
+{
+    "name": "New Laptop ASUS"
+}
+
+####
+
+# @name RemoveCategory
+DELETE   http://localhost:3000/api/categories/2
+Content-Type: application/json
+
+
